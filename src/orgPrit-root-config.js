@@ -1,4 +1,8 @@
-import { constructRoutes, constructApplications, constructLayoutEngine } from "single-spa-layout";
+import {
+  constructRoutes,
+  constructApplications,
+  constructLayoutEngine,
+} from "single-spa-layout";
 import { registerApplication, start } from "single-spa";
 
 // Fetch the layout template from the DOM
